@@ -4,7 +4,7 @@ body {
 
 #logo {
 	position: absolute; 
-	top: 255px;
+	top: 242px;
 	left: 50%;
 	transform: translate(-50%, -50%); 
 }
@@ -28,16 +28,21 @@ input[type="text"]:focus
 
 #txtComputer {
 	position: absolute;
-	top: 350px;
+	top: 340px;
 	left: 50%;
 	transform: translate(-50%, -50%); 
 }
 
 #buttons{
 	position: absolute; 
-	top: 420px;
+	top: 410px;
 	left: 50%;
 	transform: translate(-50%, -50%); 
+}
+
+#boxes {
+	position: relative; 
+	top: 7px; 
 }
 
 input[type="submit"]{
@@ -62,11 +67,30 @@ ul#topbar{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    right: 150px; 
-    top: 20px; 
+    right: 120px; 
+    top: 15px; 
     
 }
 
+#signup{
+	position: absolute; 
+	height: 31px; width: 72px; 
+	background-color: #4085FF; 
+	border-radius: 3px; 
+	text-align: center; 
+	font-family: Arial;
+	color: white; 
+	font-size:13px; 
+	font-weight: bold;
+	top: 16px;  
+	right: 32px; 	
+	vertical-align: middle;
+	line-height: 31px; 
+}
+
+#signup:active{
+	background-color: #467AE2; 
+}
 #bottombar{
 	-moz-appearance: none;
  	-webkit-appearance: none;
